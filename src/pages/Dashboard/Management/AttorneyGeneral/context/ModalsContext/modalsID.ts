@@ -1,0 +1,16 @@
+export const modalsID = {
+  none: "none",
+  despacho: "despacho",
+  despachoEmLote: "despachoEmLote",
+  solicitacaoInformacao: "solicitacaoInformacao",
+  alterarPrazo: "alterarPrazo",
+  agenda: "agenda",
+  registrarObservacao: "registrarObservacao",
+  atribuirAssessor: "atribuirAssessor",
+  alterarRelevancia: "alterarRelevancia",
+  registrarAudiencia: "registrarAudiencia",
+  pedidoRedistribuicao: "pedidoRestribuicao",
+  avalPedidoRedistribuicao: "avalPedidoRestribuicao",
+  acatarPedidos: "acatarPedidos",
+  anexosAto: "anexosAto",
+};

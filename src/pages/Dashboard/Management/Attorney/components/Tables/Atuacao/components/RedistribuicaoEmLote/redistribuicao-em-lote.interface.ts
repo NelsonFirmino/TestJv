@@ -1,0 +1,6 @@
+export interface SubmitRedistribuicaoEmLote {
+  idEspecializada: { label: string; value: number } | null;
+  idMotivo: { label: string; value: number } | null;
+  idProcurador: { label: string; value: number } | null;
+  txObservacao: string;
+}

@@ -1,0 +1,21 @@
+version: "3"
+services:
+  web:
+    container_name: jvris-react
+    build: .
+    volumes:
+      - ./src:/app/src
+    expose:
+      - 3015
+
+    environment:
+      VIRTUAL_HOST: react.homologa.pge.rn.gov.br
+      VIRTUAL_PORT: 3015
+      LETSENCRYPT_EMAIL: suportepge@gmail.com
+      LETSENCRYPT_HOST: react.homologa.pge.rn.gov.br
+    restart: always
+
+networks:
+  default:
+    name: nginx-proxy
+    external: true

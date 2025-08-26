@@ -1,0 +1,3 @@
+# BUILD PRODUÇÃO
+REACT_APP_BASE_JVRIS_URL="http://jvris.pge.rn.gov.br"
+REACT_APP_BASE_API_URL="http://jvris.pge.rn.gov.br/wapi/api"

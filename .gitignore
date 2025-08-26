@@ -1,0 +1,34 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+/public/tinymce/
+
+
+# testing
+/coverage
+
+# production
+/build
+.env
+.yml
+Dockerfile
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+yarn.lock
+package.lock.json
+
+# ENV
+.env
+.env.development
+.env.production
